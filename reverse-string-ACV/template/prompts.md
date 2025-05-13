@@ -23,3 +23,5 @@ El botón debe aparecer cuando haya texto suficiente, más de 3 letras
 
 Prompt 3:
 Que te de la cadena en tiempo real, que no dependa del botón
+
+ChatGPT 4o
