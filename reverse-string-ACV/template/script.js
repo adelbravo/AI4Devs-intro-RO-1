@@ -1,17 +1,12 @@
 const inputField = document.getElementById("inputString");
-const reverseBtn = document.getElementById("reverseBtn");
+const outputSpan = document.getElementById("output");
 
 inputField.addEventListener("input", function () {
-    if (inputField.value.length > 3) {
-        reverseBtn.style.display = "inline-block";
+    const value = inputField.value;
+    if (value.length > 3) {
+        const reversed = value.split("").reverse().join("");
+        outputSpan.textContent = reversed;
     } else {
-        reverseBtn.style.display = "none";
-        document.getElementById("output").textContent = ""; // Limpiar resultado si no hay texto suficiente
+        outputSpan.textContent = "";
     }
 });
-
-function reverseString() {
-    const input = inputField.value;
-    const reversed = input.split("").reverse().join("");
-    document.getElementById("output").textContent = reversed;
-}

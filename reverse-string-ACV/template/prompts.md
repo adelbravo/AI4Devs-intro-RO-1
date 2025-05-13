@@ -21,3 +21,5 @@ Toma como base el index.html que contiene lo siguiente
 Prompt 2:
 El botón debe aparecer cuando haya texto suficiente, más de 3 letras
 
+Prompt 3:
+Que te de la cadena en tiempo real, que no dependa del botón
